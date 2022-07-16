@@ -1,9 +1,16 @@
 import React from "react";
+import HeroSection from "../components/HeroSection";
+import AboutSection from "../components/AboutSection";
+import ServicesSection from "../components/ServicesSection";
+import ProjectSection from "../components/ProjectSection";
 
 export default function Home() {
   return (
     <div>
-      <h1>this is home page</h1>
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <ProjectSection />
     </div>
   );
 }

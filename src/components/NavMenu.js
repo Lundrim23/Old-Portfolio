@@ -40,35 +40,35 @@ const NavMenuStyles = styled.div`
     }
   }
 
-  .mobile-menu-icon{
+  .mobile-menu-icon {
     position: absolute;
     right: 1rem;
     top: 1rem;
     width: 4rem;
     cursor: pointer;
     display: none;
-    outline; none
-    *{
+    outline: none;
+    * {
       pointer-events: none;
     }
   }
 
-  .closeNavIcon{
+  .closeNavIcon {
     display: none;
   }
 
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 768px) {
     padding: 0;
 
-    .hide-item{    
-      transform: translateY(calc(-100% - var(--top)))
+    .hide-item {
+      transform: translateY(calc(-100% - var(--top)));
     }
 
-    .mobile-menu-icon{
+    .mobile-menu-icon {
       display: block;
     }
 
-    .navItems{
+    .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
       background-color: var(--deep-dark);
@@ -80,16 +80,16 @@ const NavMenuStyles = styled.div`
       right: 1rem;
       top: var(--top);
 
-      .closeNavIcon{
+      .closeNavIcon {
         display: block;
         width: 3rem;
         margin: 0 0 0 auto;
         cursor: pointer;
-        *{
+        * {
           pointer-events: none;
         }
       }
-      li{
+      li {
         display: block;
         margin-bottom: 1rem;
       }
