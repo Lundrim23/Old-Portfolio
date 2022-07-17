@@ -34,54 +34,63 @@ export default function Portfolio() {
           ></SectionTittle>
         </div>
 
+        {/*  */}
+        {/*Github link: https://github.com/Lundrim23/InfiniteScroll-UnsplashAPI
+          Live deme:https://62d40e3144bb7b5a68aad701--jolly-belekoy-b91829.netlify.app/  */}
+
         <div className="container portfolio__container">
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMG1} alt=""></img>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>InfiniteScroll</h3>
             <div className="aboutSection__buttons">
-              <Button btnLink="/projects" btnText="Works"></Button>
-              <Button btnLink="/About" btnText="Read More" outline></Button>
+              <Button btnLink="/projects" btnText="Github"></Button>
+              <Button btnLink="/About" btnText="Live Demo" outline></Button>
             </div>
           </article>
 
           {/*  */}
+          {/*Github Link: https://github.com/Lundrim23/MovieLand 
+          Live demo: Can't deploy 'api not working ???????????? */}
 
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMG2} alt=""></img>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>MovieLand</h3>
             <div className="aboutSection__buttons">
-              <Button btnLink="/projects" btnText="Works"></Button>
-              <Button btnLink="/About" btnText="Read More" outline></Button>
+              <Button btnLink="/projects" btnText="Github"></Button>
+              <Button btnLink="/About" btnText="Live Demo" outline></Button>
             </div>
           </article>
 
           {/*  */}
+          {/*Github Link:https://github.com/Lundrim23/Picture-in-Picture 
+          Live Demo: https://62d412bff459cd562e10d587--peppy-gelato-6d352c.netlify.app/  */}
 
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMG3} alt=""></img>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Picture-in-Picture</h3>
             <div className="aboutSection__buttons">
-              <Button btnLink="/projects" btnText="Works"></Button>
-              <Button btnLink="/About" btnText="Read More" outline></Button>
+              <Button btnLink="/projects" btnText="Github"></Button>
+              <Button btnLink="/About" btnText="Live Demo" outline></Button>
             </div>
           </article>
 
-          {/*  */}
+          {/*Github Link: https://github.com/Lundrim23/Quote-generator
+          Live Demo: https://62d413540eebee605b9d45e1--guileless-phoenix-dbabdd.netlify.app/  */}
 
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMG4} alt=""></img>
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Quote-generator</h3>
             <div className="aboutSection__buttons">
-              <Button btnLink="/projects" btnText="Works"></Button>
-              <Button btnLink="/About" btnText="Read More" outline></Button>
+              <Button btnLink="/projects" btnText="Github"></Button>
+              <Button btnLink="/About" btnText="Live Demo" outline></Button>
             </div>
           </article>
         </div>
