@@ -2,7 +2,9 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/ServicesSection";
-import ProjectSection from "../components/ProjectSection";
+import Portfolio from "../portfolio/Portfolio";
+import TestimonialSection from "../components/TestimonialSection";
+// import ProjectSection from "../components/ProjectSection";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <ProjectSection />
+      {/* <ProjectSection /> */}
+      <Portfolio></Portfolio>
+      <TestimonialSection></TestimonialSection>
     </div>
   );
 }
