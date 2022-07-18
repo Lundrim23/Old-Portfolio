@@ -2,7 +2,6 @@ import React from "react";
 import PText from "./PText";
 import FooterCol from "./FooterCol";
 import styled from "styled-components";
-// import { BsFacebook } from "react-icons/md";
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);

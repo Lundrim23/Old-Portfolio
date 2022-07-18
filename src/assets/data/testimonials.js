@@ -1,7 +1,7 @@
 const testimonials = [
   {
     id: 1,
-    name: "Syl Syla",
+    name: "Syla",
     title: "CEO",
     org: "Udemy",
     desc: "Lundrim is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.",
