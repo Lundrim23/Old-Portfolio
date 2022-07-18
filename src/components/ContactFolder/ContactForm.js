@@ -7,9 +7,11 @@ const FormStyle = styled.form`
     width: 100%;
     margin-bottom: 2rem;
   }
+
   label {
     font-size: 1.8rem;
   }
+
   input,
   textarea {
     width: 100%;
@@ -22,10 +24,12 @@ const FormStyle = styled.form`
     border-radius: 8px;
     margin-top: 1rem;
   }
+
   textarea {
     min-height: 250px;
     resize: vertical;
   }
+
   button[type="submit"] {
     background-color: var(--gray-1);
     color: var(--black);

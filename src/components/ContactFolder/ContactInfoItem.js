@@ -27,7 +27,7 @@ const ItemStyles = styled.div`
 
 export default function ContactInfoItem({
   icon = <MdPlace />,
-  text = "I need text ",
+  text = "I need text",
 }) {
   return (
     <ItemStyles>

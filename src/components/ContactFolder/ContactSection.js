@@ -16,7 +16,7 @@ const ContactSectionStyle = styled.div`
   }
   .contactSection__wrapper::after {
     position: absolute;
-    content: "";
+    content: " ";
     width: 2px;
     height: 50%;
     background-color: var(--gray-1);
