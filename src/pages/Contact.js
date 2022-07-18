@@ -1,9 +1,11 @@
 import React from "react";
-
+import ContactSection from "../components/ContactFolder/ContactSection";
+import Map from "../components/Map";
 export default function Contact() {
   return (
     <div>
-      <h1>this is contact page</h1>
+      <ContactSection />
+      <Map />
     </div>
   );
 }

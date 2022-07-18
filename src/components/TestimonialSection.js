@@ -29,7 +29,7 @@ const TestimonialsSectionStyles = styled.div`
   }
   .testimonial__name {
     margin-top: 4rem;
-    font-family: "Montoserrat Bold";
+    font-family: "Montserrat Bold";
     font-size: 2.2rem;
   }
   .testimonial__title {

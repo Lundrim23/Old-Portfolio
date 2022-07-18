@@ -1,34 +1,34 @@
 import { v4 as uuidv4 } from "uuid";
 import ProjectImg from "../images/projectImg.png";
-import UTrackerImg from "../images/utracker.jpg";
-import GreenCtgImg from "../images/greenctg.jpg";
-import CoinTrackerImg from "../images/cointracker.jpg";
-import CavinImg from "../images/cavinimg.jpg";
+import UnSplashed from "../images/img1-UnSplashed.PNG";
+import MovieLand from "../images/img2-MovieLand.PNG";
+import PictureInPicture from "../images/img3-Picture-In-Picture.PNG";
+import QuoteGenerator from "../images/img4-QuoteGenerator.PNG";
 
 const projects = [
   {
     id: uuidv4(),
-    name: "U Tracker",
-    desc: "An application to track your all data from one place. I developed the website and the mobile app",
-    img: UTrackerImg,
+    name: "Infinite scroll",
+    desc: "A web design technique where, as the user scrolls down a page, more content automatically and continuously loads at the bottom, eliminating the user's need to click to the next page",
+    img: UnSplashed,
   },
   {
     id: uuidv4(),
-    name: "Green CTG",
-    desc: "An app to help people to get an overview of how they can make the city beautiful.",
-    img: GreenCtgImg,
+    name: "Movie Land",
+    desc: "An application that brings movie information made with React and consuming a TMDB movie ... Creating a UI for Streaming using React.js, Styled Components.",
+    img: MovieLand,
   },
   {
     id: uuidv4(),
-    name: "Coin Tracker",
-    desc: "Using this app you can track any e coin. Also you will get a good advise about investment form the professional",
-    img: CoinTrackerImg,
+    name: "Picture In Picture",
+    desc: "Picture-in-Picture allows you to watch videos in a floating window so you can keep an eye on what you’re watching while interacting with other sites, or applications",
+    img: PictureInPicture,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc: "A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.",
-    img: CavinImg,
+    name: "Quote Generator",
+    desc: "You can generate quote's that famus people tweeted and you can retweet those tweets",
+    img: QuoteGenerator,
   },
   {
     id: uuidv4(),

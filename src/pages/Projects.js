@@ -1,4 +1,4 @@
-import React, { useEffect, useInsertionEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import SectionTittle from "../components/SectionTittle";
 import { MdSearch } from "react-icons/md";
