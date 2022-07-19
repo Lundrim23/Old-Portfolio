@@ -114,7 +114,7 @@ export default function About() {
             </div>
             <a href={CV} download="myCV">
               <button className="button1" type="submit">
-                <b>Download CV</b>
+                <b>Download CV 👍</b>
               </button>
             </a>
           </div>
@@ -124,7 +124,7 @@ export default function About() {
         </div>
         <div className="about__info__items">
           <div className="about__info__item">
-            <h1 className="about__info__heading">Education</h1>
+            <h1 className="about__info__heading">Education 🎓</h1>
             <AboutInfo
               title="School"
               items={[`Kuvendi i Lezhës.High School, Viti `]}
@@ -142,7 +142,7 @@ export default function About() {
           {/*  */}
 
           <div className="about__info__item">
-            <h1 className="about__info__heading">My Skills</h1>
+            <h1 className="about__info__heading">My Skills 🤹‍♂️</h1>
             <AboutInfo
               title="FrontEnd"
               items={["HTML", "CSS", "JavaScript", "REACT"]}

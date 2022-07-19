@@ -5,6 +5,8 @@ import Button from "./Button";
 import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import PText from "./PText";
+import { MdFacebook } from "react-icons/md";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const HeroStyles = styled.div`
   .hero {
@@ -84,7 +86,7 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
+          /* transform: rotate(-90deg); */
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -160,7 +162,7 @@ export default function HeroSection() {
               I am learning front-end development for about 6 months. I love to
               design and make new web experiences for the people.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="see my work 👷‍♂️" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
@@ -175,7 +177,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    <MdFacebook />
                   </a>
                 </li>
                 <li>
@@ -184,7 +186,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    <FaLinkedin />
                   </a>
                 </li>
                 <li>
@@ -193,7 +195,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GH
+                    <FaGithub />
                   </a>
                 </li>
               </ul>

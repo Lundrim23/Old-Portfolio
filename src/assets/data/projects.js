@@ -32,7 +32,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Tracking Soft",
+    name: "Tracking Soft (Not Finished)",
     desc: "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
     img: ProjectImg,
   },

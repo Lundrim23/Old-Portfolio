@@ -72,8 +72,8 @@ export default function AboutSection() {
             always try to show unique views to the audience through my design
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnLink="/projects" btnText="Works"></Button>
-            <Button btnLink="/About" btnText="Read More" outline></Button>
+            <Button btnLink="/projects" btnText="Work"></Button>
+            <Button btnLink="/About" btnText="Read More 📖" outline></Button>
           </div>
         </div>
         <div className="aboutSection__right">
