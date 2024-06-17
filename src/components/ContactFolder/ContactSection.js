@@ -58,7 +58,7 @@ export default function ContactSection() {
         <SectionTittle heading="contact" subheading="get in touch" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+383 49 787 925" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+383 40 999 999" />
             <ContactInfoItem
               icon={<MdEmail />}
               text="aliulundrim22@gmail.com  "
