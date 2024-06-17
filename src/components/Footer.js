@@ -97,8 +97,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: "+383 49 787 925",
-                path: "tel:+383 49 787 925",
+                title: "+383 49 999 999",
+                path: "tel:+383 49 999 999",
               },
               {
                 title: "aliulundrim22@gmail.com ",
