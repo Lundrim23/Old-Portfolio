@@ -15,9 +15,6 @@ export default function App() {
         <NavMenu />
         <ScrollToTop></ScrollToTop>
         <Routes>
-          
-        </Routes>
-        <Routes>
           <Route path="/Projects" element={<Projects />} />
         </Routes>
         <Routes>
